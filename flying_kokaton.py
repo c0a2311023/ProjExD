@@ -19,6 +19,7 @@ def main():
     tmr = 0
     dx = 0
     dy = 0
+    y = 0
     while True:
         x = tmr % 3200 #練習6 #練習7
         for event in pg.event.get():
